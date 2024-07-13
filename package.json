@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "./slidev.sh build",
+    "dev": "./slidev.sh dev",
+    "export": "./slidev.sh export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.48.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.4.21",
+    "playwright-chromium": "^1.21.1"
+  },
+  "name": "slides"
+}
